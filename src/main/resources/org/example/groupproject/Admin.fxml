@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="465.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.groupproject.HelloController">
+   <children>
+      <Label layoutX="114.0" layoutY="10.0" text="Education Feedback System">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="150.0" layoutY="45.0" text="Welcome Back :)" />
+      <Label layoutX="5.0" layoutY="75.0" text="To keep connected with us please login by using email or username and password" />
+      <Label layoutX="105.0" layoutY="116.0" text="Sign In as Admin, Survey Creator, and Participant" />
+      <Label layoutX="148.0" layoutY="148.0" text="Email/Username" />
+      <TextField fx:id="email" layoutX="148.0" layoutY="169.0" prefHeight="25.0" prefWidth="170.0" />
+      <Label layoutX="148.0" layoutY="206.0" text="Password" />
+      <PasswordField fx:id="password" layoutX="148.0" layoutY="226.0" prefHeight="25.0" prefWidth="170.0" />
+      <Label layoutX="226.0" layoutY="254.0" text="Forget Password?" />
+      <Button layoutX="208.0" layoutY="293.0" mnemonicParsing="false" onAction="#buttonForLogin" text="Login" />
+      <Label layoutX="148.0" layoutY="360.0" text="Don't have an account?">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Button layoutX="273.0" layoutY="357.0" mnemonicParsing="false" onAction="#buttonForAdminSignUp" text="Sign Up as Admin">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button layoutX="273.0" layoutY="390.0" mnemonicParsing="false" text="Sign Up as Participant">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button layoutX="273.0" layoutY="423.0" mnemonicParsing="false" text="Sign Up as Survey Creator">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Label fx:id="LoginINFO" layoutX="267.0" layoutY="240.0" />
+   </children>
+</AnchorPane>
