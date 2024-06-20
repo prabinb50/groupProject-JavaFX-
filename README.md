@@ -1,1 +1,5 @@
-# groupProject-JavaFX-
+Introduction: In the quickly changing Nepali landscape of today, precise, real-time data collecting is critical. Particularly in the field of education, having a thorough grasp of the viewpoints of educators, students, and other stakeholders via an effective survey system can help make more informed judgements. With an emphasis on the Education Feedback System, the goal of this project is to create a Survey Management System specifically suited for the Nepalese environment. Object-oriented design principles will be used in the system's construction to guarantee security, flexibility, and dependability. 
+
+Mission of the Project: To сreаte а seсure, effiсient, аnԁ culturally relevаnt survey mаnаgement system thаt emрowers eԁuсаtionаl institutions in Neраl to gather actionable insights аnԁ ԁrive сontinuous imрrovement.
+
+Vision of the Project: To enhance the educational experience in Nepal through a feedback system that is accessible, reliable, and reflective of the needs and preferences of students and educators.
